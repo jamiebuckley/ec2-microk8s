@@ -1,0 +1,1 @@
+ssh -l ubuntu -i ~/.ssh/id_ed25519 13.41.163.92 'microk8s.config' | sed 's/server:.*/server: https:\/\/13.41.163.92:16443/g'

@@ -1,0 +1,4 @@
+home_ip   = "$MY_IP/32"
+public_key_path = "~/.ssh/id_ed25519.pub"
+aws_ami_id = "$AMI_ID"
+subnet_id = "$SUBNET_ID"
